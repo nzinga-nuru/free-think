@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #343a40;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}

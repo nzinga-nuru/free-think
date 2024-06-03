@@ -3,7 +3,7 @@ name: Jekyll site CI
 on:
   push:
     branches:
-      - main  # Branch na qual o site será construído e publicado
+      - main
 
 jobs:
   build:
@@ -30,3 +30,4 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./_site
+        publish_branch: gh-pages

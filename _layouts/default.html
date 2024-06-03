@@ -33,6 +33,7 @@
 </head>
 <body>
     <body>
+<!--Acrescenta o menu princial a todos as páginas -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
                 <a class="navbar-brand" href="{{ '/' | relative_url }}">Free Thinker</a>
@@ -46,6 +47,29 @@
                 </div>
             </div>
         </nav>
+<!--Acrescenta um submenu a todos os modulos -->
+    </nav>
+    <div class="container mt-4">
+        {% if page.modules %}
+            <nav class="modules-navigation">
+                <ul class="nav justify-content-center">
+                    {% for module in page.modules %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ module.url }}">{{ module.title }}</a>
+                        </li>
+                        {% if module.chapters %}
+                            {% for chapter in module.chapters %}
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ chapter.url }}">{{ chapter.title }}</a>
+                                </li>
+                            {% endfor %}
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </nav>
+        {% endif %}
+
+<!--Acrescenta o conteúdo das páginas -->
         <div class="container mt-4">
             <div class="row justify-content-center">
                 <div class="col-md-8">
@@ -57,6 +81,7 @@
                 </div>
             </div>
         </div>
+<!--Acrescenta o conteúdo do footer -->
         <footer class="bg-light text-center text-lg-start mt-4">
             <hr>
             <div class="container">

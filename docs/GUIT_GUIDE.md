@@ -1,5 +1,10 @@
 # GUIT Guide: Solução de Conflitos e Atualização de URL Remoto
 
+'''
+bundle exec jekyll serve --host 0.0.0.0 --port 4000
+'''
+
+
 ## Índice
 
 1. [Atualização de URL Remoto do Repositório](#atualização-de-url-remoto-do-repositório)

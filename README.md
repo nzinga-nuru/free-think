@@ -1,1 +1,1 @@
-# free-think
+# free-thinker

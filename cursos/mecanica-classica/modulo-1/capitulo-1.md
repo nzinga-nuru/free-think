@@ -3,13 +3,13 @@ layout: default
 title: "Capítulo 1: Introdução à Mecânica"
 
 modules:
-  - title: "Módulo 1"
-    url: "/cursos/mecanica-classica/"
+  - title: "Conteúdo"
+    url: "/free-thinker/cursos/mecanica-classica/"
     chapters:
       - title: "Capítulo 1: Introdução à Mecânica"
-        url: "/cursos/mecanica-classica/modulo-1/capitulo-1/"
+        url: "/free-thinker/cursos/mecanica-classica/modulo-1/capitulo-1/"
       - title: "Capítulo 2: Leis de Newton"
-        url: "/cursos/mecanica-classica/modulo-1/capitulo-2/"
+        url: "/free-thinker/cursos/mecanica-classica/modulo-1/capitulo-2/"
 ---
 
 # Movimento de Um Corpo
@@ -197,11 +197,7 @@ por exemplo, um movimento em queda livre.
 
 
 Para ficar mais simples de pensar vou considerar o movimento de uma esfera de move sem girar para a direita, vamos pensar como seria o movimento por 10 s; e no instante que começo a anlisa-la, (\\(t_{o}) = 0\\), velocidade é 35 m/s, (\\(v_{o}\\)). Olhando para a <strong>equação da aceleração</strong>, é imediato notar que ela descreve uma resistência ao movimento por causa do sinal negativo.Olhando para a <strong>equação da velocidade</strong>, ela descreve uma redução, e essa redução é exponencial e, por fim, olhando <strong>equação da posição</strong> já não é tão óbvio se ela realmente descreve um aumento no valor até chegar a um ponto onde a posição não muda mais, ou seja, que ela está parada. E eu imagino que você deva contacorda que as equações da posição, da velocidade e da aceleração devem ser zero ao mesmo tempo. E para verificar tudo isso, construí um gráfico das equações para visualizar melhor as coisas e juntos darmos uma boa contemplada e refletir se ele descreve tudo isso que discutiomos.
-
-
-
-
-      
+ 
 Quero que tenha um cuidado ao olhar para esses gráficos, eu plotei todos juntos, a variável independente é o tempo, mas a dependente para cada caso é diferente. Coloquei tudo junto para que seja possível
 olhamos suas respectivas evoluções no tempo. Eu imaginei poder observar o movimento por 10 s, mas como ele pára mais ou menos em 5 s, plotei o gráfico até instante que ele tudo se aquieta. Ah! Outra coisa que fiz
 para facilitar a plotagem foi considerar que a massa e o coeficiente b valem 1, a massa valer 1 pode ser razoável, mas b, na realidade, é da ordem de \\(10^{-4}\\), o que faria tudo ir a zero bem rápido. O que quero dizer com isso? É que eu plotei o gráfico para vermos mais o jeitão das curvas e notarmos que teoriacamente tudo está dentro do esperdo... por que teoriacamente? Porque teríamos que fazer alguns experimentos para verificarmos se isso é isso mesmo... mas posso adiantar que é.
@@ -233,12 +229,12 @@ para facilitar a plotagem foi considerar que a massa e o coeficiente b valem 1, 
 Um jeito interessante para entendermos o que a equação está no dizendo
 é plotando um gráfico.
 
-![Gráfico](/assets/imgs/grafico.png)
+![Gráfico](/free-thinker/assets/imgs/grafico.png)
 
 Um jeito interessante para entendermos o que a equação está no dizendo
 é plotando um gráfico.
 
 {% raw %}
-<iframe src="/assets/graficos/move-X.html" width="850" height="650"></iframe>
+<iframe src="/free-thinker/assets/graficos/move-X.html" width="850" height="650"></iframe>
 {% endraw %}
 

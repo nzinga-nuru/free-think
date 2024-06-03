@@ -1,8 +1,8 @@
 title: Free Thinker
 description: >- # Descrição
   Site para cursos de física
-baseurl: "" # não use '/' no final
-url: "https://nzinga-nuru.github.io" # URL do seu site no GitHub Pages
+baseurl: "/free-thinker" # não use '/' no final
+url: "https://nzinga-nuru.github.io/" # URL do seu site no GitHub Pages
 theme: minima
 
 markdown: kramdown

@@ -1,16 +1,37 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+    background-color: #f8f9fa;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #343a40;
+    color: #1a1a1a;
 }
 
-.container {
-    margin-top: 20px;
+p {
+    color: #4d4d4d;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.navbar-brand {
+    color: #0056b3;
+}
+
+.navbar-brand:hover {
+    color: #003d80;
 }
 
 footer {
-    background-color: #f8f9fa;
+    background-color: #e9ecef;
+    color: #6c757d;
     padding: 10px 0;
 }

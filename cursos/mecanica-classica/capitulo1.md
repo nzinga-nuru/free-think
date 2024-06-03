@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Arrasto"
+title: "Capítulo 1: Conceitos Básicos"
 ---
 
 # Capítulo 1: Conceitos Básicos

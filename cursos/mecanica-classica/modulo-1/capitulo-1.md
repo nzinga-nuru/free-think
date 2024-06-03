@@ -238,3 +238,19 @@ Um jeito interessante para entendermos o que a equação está no dizendo
 <iframe src="/free-thinker/assets/graficos/move-X.html" width="850" height="650"></iframe>
 {% endraw %}
 
+### Métodos Numéricos
+         
+Para resolver equações não lineares vamos precisar de uma ajudinha. Nessa situação não temos como encontar uma solução analítica e para contronar vamos precisa de métodos numéricos, vou começar pelo método de Euler e avançarei até o método de Hunge-Kutta.
+A intenção disso é discutir o fundamento de um raciocío básico, para me basearei em uma análise geomética. 
+        
+
+
+### Método de Euler
+
+{% raw %}
+<iframe src="/free-thinker/assets/code/eulerMethod.html" width="850" height="300"></iframe>
+{% endraw %}
+      
+Para resolver equações não lineares vamos precisar de uma ajudinha. Nessa situação não temos como encontar uma solução analítica e para contronar vamos precisa de métodos numéricos, vou começar pelo método de Euler e avançarei até o método de Hunge-Kutta.
+A intenção disso é discutir o fundamento de um raciocío básico, para me basearei em uma análise geomética. 
+       

@@ -1,18 +1,21 @@
 title: Free Thinker
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Portal para cursos de Física.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://nzinga-nuru.github.io/free-thinker" # the base hostname & protocol for your site
-twitter_username: your-twitter-handle
-github_username: your-github-username
-
+description: >- # Descrição
+  Site para cursos de física
+baseurl: "" # não use '/' no final
+url: "https://nzinga-nuru.github.io" # URL do seu site no GitHub Pages
 theme: minima
 
-plugins:
-  - jekyll-feed
-  - jekyll-latex
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
 
-collections:
-  cursos:
-    output: true
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"

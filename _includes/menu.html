@@ -1,11 +1,11 @@
 <ul class="navbar-nav mr-auto">
     <li class="nav-item">
-        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link" href="{{ '/' | relative_url }}">Home</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="/cursos/mecanica-classica/">Capítulo 1</a>
+        <a class="nav-link" href="{{ '/cursos/' | relative_url }}">Cursos</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="/about/">About</a>
+        <a class="nav-link" href="{{ '/about/' | relative_url }}">About</a>
     </li>
 </ul>

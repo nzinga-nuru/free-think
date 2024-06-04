@@ -1,95 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism.min.css">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-    
-     <!-- Mathjax que permite escrever usando LaTeX -->
-     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-     <script>
-         window.MathJax = {
-            tex: {
-                inlineMath: [['$', '$'], ['\\(', '\\)']],
-                displayMath: [['$$', '$$'], ['\\[', '\\]']],
-                tags: 'ams' // Isso habilita a numeração de equações
-            },
-            svg: {
-                fontCache: 'global'
-            }
-        };
-     </script>
-    
-    
-    <link rel="stylesheet" href="/free-thinker/assets/css/styles.css">
-
-</head>
-<body>
-    <body>
-<!--Acrescenta o menu princial a todos as páginas -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
-                <a class="navbar-brand" href="{{ '/' | relative_url }}">Free Thinker</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        {% include menu.html %}
-                    </ul>
-                </div>
-            </div>
-        </nav>
-<!--Acrescenta um submenu a todos os modulos -->
-    </nav>
-    <div class="container mt-4">
-        {% if page.modules %}
-            <nav class="modules-navigation">
-                <ul class="nav justify-content-center">
-                    {% for module in page.modules %}
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ module.url }}">{{ module.title }}</a>
-                        </li>
-                        {% if module.chapters %}
-                            {% for chapter in module.chapters %}
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{ chapter.url }}">{{ chapter.title }}</a>
-                                </li>
-                            {% endfor %}
-                        {% endif %}
-                    {% endfor %}
-                </ul>
-            </nav>
-        {% endif %}
-
-<!--Acrescenta o conteúdo das páginas -->
-        <div class="container mt-4">
-            <div class="row justify-content-center">
-                <div class="col-md-10">
-                    <div class="content-container">
-                        
-                            {{ content }}
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-<!--Acrescenta o conteúdo do footer -->
-
-
-<footer class="bg-light text-center text-lg-start mt-4">
-    <div class="text-center p-3">
-        © 2024 Free Thinker. Todos os direitos reservados.
-    </div>
-</footer>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-</body>
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <main>
+      {{ content }}
+    </main>
+    {% include footer.html %}
+  </body>
 </html>

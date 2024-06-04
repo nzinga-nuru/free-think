@@ -1,0 +1,20 @@
+- id: mecanica-classica
+  title: "Mecânica Clássica"
+  url: "/cursos/mecanica-classica/"
+  modules:
+    - title: "Módulo 1"
+      chapters:
+        - title: "Capítulo 1: Introdução à Mecânica"
+          url: "modulo1/capitulo1"
+        - title: "Capítulo 2: Leis de Newton"
+          url: "modulo1/capitulo2"
+- id: fisica-experimental
+  title: "Física Experimental"
+  url: "/cursos/fisica-experimental/"
+  modules:
+    - title: "Módulo 1"
+      chapters:
+        - title: "Capítulo 1: Introdução à Física Experimental"
+          url: "modulo1/capitulo1"
+        - title: "Capítulo 2: Medidas e Erros"
+          url: "modulo1/capitulo2"

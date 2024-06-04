@@ -1,0 +1,17 @@
+{% assign course = site.data.courses | where: "id", page.course | first %}
+{% if course %}
+  <nav class="submenu">
+    <ul>
+      <li><a href="{{ '/cursos/' | relative_url }}">Voltar para Cursos</a></li>
+      {% for module in course.modules %}
+        <li>{{ module.title }}
+          <ul>
+            {% for chapter in module.chapters %}
+              <li><a href="{{ course.url | relative_url }}{{ chapter.url | relative_url }}">{{ chapter.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+{% endif %}

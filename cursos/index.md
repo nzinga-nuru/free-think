@@ -5,6 +5,8 @@ title: Cursos
 
 # Cursos
 
-Lista de cursos disponíveis:
-- [Mecânica Clássica]({{ '/cursos/mecanica-classica/' | relative_url }})
+{% for course in site.data.courses %}
+- [{{ course.title }}]({{ course.url | relative_url }})
+{% endfor %}
+
 

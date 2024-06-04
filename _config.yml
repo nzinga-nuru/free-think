@@ -19,3 +19,5 @@ defaults:
       type: "posts"
     values:
       layout: "default"
+
+

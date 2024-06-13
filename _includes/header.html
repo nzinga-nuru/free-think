@@ -1,10 +1,29 @@
-<header>
-    <nav>
-      <ul>
-        <li><a href="{{ '/' | relative_url }}">Home</a></li>
-        <li><a href="{{ '/cursos/' | relative_url }}">Cursos</a></li>
-        <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark container-nav">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="{{ site.baseurl }}/">Free Thinker</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto me-2">
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.baseurl }}/">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Cursos
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="{{ site.baseurl }}/cursos/curso1/">Curso 1</a>
+            <a class="dropdown-item" href="{{ site.baseurl }}/cursos/curso2/">Curso 2</a>
+            <a class="dropdown-item" href="{{ site.baseurl }}/cursos/curso3/">Curso 3</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.baseurl }}/about/">About</a>
+        </li>
       </ul>
-    </nav>
-  </header>
-  
+    </div>
+</div>
+</nav>

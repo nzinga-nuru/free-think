@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
   {% include head.html %}
-  <body>
+</head>
+<body>
+  <header>
     {% include header.html %}
-    <main>
-      {{ content }}
-    </main>
+  </header>
+  <!--Acrescenta o conteúdo das páginas -->
+  <main class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <div class="content-container">
+                
+                    {{ content }}
+            </div>
+        </div>
+    </div>
+  </main>
+  <footer>
     {% include footer.html %}
-  </body>
+  </footer>
+</body>
 </html>

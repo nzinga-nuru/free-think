@@ -1,20 +1,45 @@
-- id: mecanica-classica
-  title: "Mecânica Clássica"
-  url: "/cursos/mecanica-classica/"
+curso1:
+  title: "Curso 1"
   modules:
     - title: "Módulo 1"
+      slug: "modulo1"
       chapters:
-        - title: "Capítulo 1: Introdução à Mecânica"
-          url: "modulo1/capitulo1"
-        - title: "Capítulo 2: Leis de Newton"
-          url: "modulo1/capitulo2"
-- id: fisica-experimental
-  title: "Física Experimental"
-  url: "/cursos/fisica-experimental/"
+        - title: "Capítulo 1"
+          slug: "capitulo1"
+        - title: "Capítulo 2"
+          slug: "capitulo2"
+    - title: "Módulo 2"
+      slug: "modulo2"
+      chapters:
+        - title: "Capítulo 1"
+          slug: "capitulo1"
+        - title: "Capítulo 2"
+          slug: "capitulo2"
+
+curso2:
+  title: "Curso 2"
   modules:
     - title: "Módulo 1"
+      slug: "modulo1"
       chapters:
-        - title: "Capítulo 1: Introdução à Física Experimental"
-          url: "modulo1/capitulo1"
-        - title: "Capítulo 2: Medidas e Erros"
-          url: "modulo1/capitulo2"
+        - title: "Capítulo 1"
+          slug: "capitulo1"
+        - title: "Capítulo 2"
+          slug: "capitulo2"
+    - title: "Módulo 2"
+      slug: "modulo2"
+      chapters:
+        - title: "Capítulo 1"
+          slug: "capitulo1"
+        - title: "Capítulo 2"
+          slug: "capitulo2"
+curso3:
+  title: "Curso 3"
+  modules:
+    - title: "Módulo 1"
+      slug: "modulo1"
+      chapters:
+        - title: "Capítulo 1"
+          slug: "capitulo1"
+        - title: "Capítulo 2"
+          slug: "capitulo2"

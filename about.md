@@ -1,8 +1,9 @@
 ---
 layout: default
-title: About
+title: Sobre
 ---
 
 # Sobre
 
-Informações sobre o site e o autor.
+<p>Este site foi criado para organizar os conteúdos dos cursos que estou ministrando. Aqui você encontrará materiais organizados por módulos e capítulos.</p>
+

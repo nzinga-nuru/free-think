@@ -1,35 +1,22 @@
-title: "Free Thinker"
-baseurl: "/free-thinker"  # Esta é a chave para evitar repetir o prefixo
-url: "https://nzinga-nuru.github.io"
+title: Free Thinker
+description: >
+  Um site para organizar os conteúdos das disciplinas de Física.
+baseurl: "/free-thinker" # use esta linha para definir o subdiretório
+url:  # ajuste para o seu URL de produção quando necessário
+
 markdown: kramdown
 kramdown:
-  input: GFM
+
   math_engine: mathjax
-  syntax_highlighter_opts:
-    disable: true
+  input: GFM
+
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
-  - vendor/
-permalink: /:categories/:title/
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "default"
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-mathjax
-mathjax:
-  path: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'
-collections:
-  cursos:
-    output: true
-paginate: 5
-paginate_path: "/page:num"
-theme: minima
-relative_permalinks: false
+  - vendor
+  - README.md
+  - LICENSE
+  - Makefile
+  - package.json
+  - package-lock.json

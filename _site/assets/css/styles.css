@@ -1,72 +1,41 @@
-body {
-    font-family: 'Merriweather', serif;
+html, body {
+    font-family: Arial, serif;
     color: #333333;
-    background-color: #f8f9fa;
     text-align: justify;
     margin: 0;
-}
+    padding: 0;
+  }
 
-h1, h2, h3, h4, h5, h6 {
-    color: #1a1a1a;
+  /* Adicionalmente, ajuste a margem do main se necessário */
+main {
+  margin-top: 0rem; /* Ajuste conforme necessário */
 }
-
-p {
-    color: #4d4d4d;
-}
-
-a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #0056b3;
-    text-decoration: underline;
-}
-
-.navbar-brand {
-    color: #0056b3;
-}
-
-.navbar-brand:hover {
-    color: #003d80;
-}
-
-.modules-navigation {
-    margin-bottom: 20px;
-}
-
-.modules-navigation .nav-link {
-    padding: 0.5rem 1rem;
-}
-
-.modules-navigation .nav-link:hover {
-    text-decoration: none;
-    background-color: #f8f9fa;
-}
-
-.math-highlight {
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
-    padding: 5px;
-    border-radius: 5px;
-}
-
-.container {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.content-container {
-    border: 1px solid #ddd;
-    padding: 20px;
-    border-radius: 5px;
-    background-color: #f9f9f9;
+  
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
 }
 
 footer {
-    background-color: #e9ecef;
-    color: #6c757d;
-    padding: 10px 0;
+  padding: 0.5rem;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Ajusta a margem do menu de navegação dos capítulos */
+.course-nav {
+margin-top: 0; /* Ajuste conforme necessário */
+}
+
+.container-nav { 
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.nav-item {
+  margin-right: 15px; /* Espaçamento entre os itens do menu */
 }

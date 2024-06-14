@@ -1,10 +1,8 @@
 ---
 layout: course
-title: Módulo 1 do Curso 2
-pagination: 
-  enabled: true
+title: Módulo 1 do Curso 3
 ---
-## Módulo 1 do Curso 2
+## Módulo 1 do Curso 3
 1. [Capítulo 1](capitulo1/)
 1. [Capítulo 2](capitulo2/)
 

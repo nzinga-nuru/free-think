@@ -1,0 +1,19 @@
+---
+layout: default
+title: Blog
+---
+
+<div class="blog">
+  <h1> Onde você pensa livremente </h1>
+  
+  <p> Aqui estão as últimas postagens do blog. </p>
+  
+
+  {% for post in site.posts %}
+    <article class="post">
+      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.excerpt }}</p>
+      <p><a href="{{ site.baseurl }}{{ post.url }}">Leia mais</a></p>
+    </article>
+  {% endfor %}
+</div>

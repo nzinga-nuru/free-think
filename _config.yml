@@ -2,13 +2,25 @@ title: Free Thinker
 description: >
   Um site para organizar os conteúdos das disciplinas de Física.
 baseurl: "/free-thinker" # use esta linha para definir o subdiretório
-url:  # ajuste para o seu URL de produção quando necessário
+url: "https://nzinga-nuru.github.io" # ajuste para o seu URL de produção quando necessário
 
 markdown: kramdown
 kramdown:
 
   math_engine: mathjax
   input: GFM
+
+# Configurações do blog
+paginate: 5 # Número de postagens por página
+paginate_path: "/blog/page:num/"
+
+# Plugins permitidos pelo GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+# Outros
+theme: minima # Use qualquer tema que preferir
 
 exclude:
   - Gemfile

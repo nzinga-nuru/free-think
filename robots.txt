@@ -1,1 +1,1 @@
-Sitemap: /free-thinker/sitemap.xml
+Sitemap: https://nzinga-nuru.github.io/free-thinker/sitemap.xml

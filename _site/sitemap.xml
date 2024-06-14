@@ -5,6 +5,10 @@
 <lastmod>2024-06-02T22:51:17+00:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/free-thinker/blog/2024/06/13/cronica.html</loc>
+<lastmod>2024-06-13T00:00:00+00:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/free-thinker/about.html</loc>
 </url>
 <url>
@@ -35,6 +39,9 @@
 <loc>http://localhost:4000/free-thinker/cursos/curso1/modulo2/capitulo2.html</loc>
 </url>
 <url>
+<loc>http://localhost:4000/free-thinker/blog/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/free-thinker/cursos/curso2/modulo1/</loc>
 </url>
 <url>
@@ -60,6 +67,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/free-thinker/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/free-thinker/docs/GUIT_GUIDE.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/free-thinker/assets/code/eulerMethod.html</loc>

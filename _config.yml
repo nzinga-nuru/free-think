@@ -4,6 +4,8 @@ description: >
 baseurl: "/free-thinker" # use esta linha para definir o subdiretório
 url: "https://nzinga-nuru.github.io" # ajuste para o seu URL de produção quando necessário
 
+permalink: /:categories/:title/
+
 markdown: kramdown
 kramdown:
 

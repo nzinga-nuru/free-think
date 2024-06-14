@@ -5,4 +5,4 @@ pagination:
   enabled: true
 ---
 ## Módulo 2 do Curso 2
-1. [Capítulo 1](capitulo1.md)
+1. [Capítulo 1](capitulo1/)
